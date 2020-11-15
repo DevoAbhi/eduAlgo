@@ -1,3 +1,5 @@
+import collections
+
 def print_msg_box(msg, indent=1, width=None, title=None):
     """Print message-box with optional title."""
     lines = msg.split('\n')
