@@ -1,3 +1,4 @@
+from . import print_msg_box
 
 def rotateImage(img_arr,n,hint=False):
     if(hint==True):
